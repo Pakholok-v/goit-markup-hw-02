@@ -136,13 +136,6 @@ body{
 .footer {
     background-color: #2e2f42;
 }
-.footer-text {
-    line-height: 1.5;
-    color:#F4F4FD;
-    letter-spacing: 0.02em;
-    font-family: "Raleway", sans-serif;
-    margin: 0; 
-}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -152,7 +145,17 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 0.5rem;
+    text-decoration: none;
 }
 .logo .studio {
+    color: #f4f4fd;
+}
+
+.footer__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
