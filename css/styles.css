@@ -36,8 +36,15 @@ a {
 }
 
 .studio_logo {
-    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;       
+    color: #4d5ae5;
 }
+
 
 .nav-link {
     font-weight: 500;
@@ -153,11 +160,29 @@ a {
     background-color: #2e2f42;
 }
 
-.footer-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo .studio {
     color: #f4f4fd;
 }
 
-.footer-span {
-    color: #f4f4fd; }
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 600px;
+}
