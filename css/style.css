@@ -43,7 +43,7 @@ a {
 }
 
 
-.nav-link {
+.nav__link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -52,8 +52,7 @@ a {
     transition: color 0.3s ease;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav__link:hover, .nav__link:focus {
     color: #404BBF;
 }
 
@@ -93,7 +92,7 @@ a {
     color: #ffffff; 
 }
 
-.hero__button {
+.button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -105,12 +104,10 @@ a {
     transition: background-color 0.3s ease; 
 }
 
-.hero__button:hover{
+.button:hover, .button:focus{
     background-color: #404bbf;
 }
-.hero__button:focus {
-    background-color: #404bbf;
-}
+
 .team-section {
     background-color: #F4F4FD;
 }
