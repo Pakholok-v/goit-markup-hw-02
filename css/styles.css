@@ -1,24 +1,31 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: normal;
-    color: #434455;
-    background-color: #ffffff;
+font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 ul,
 ol {
-    list-style-type: none; 
+    list-style-type: none;
 }
+
 a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.logo-link {
+.logo-class {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -26,10 +33,9 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
-.logo-accent {
+.studio_logo {
     color: #2e2f42;
 }
 
@@ -44,7 +50,11 @@ a {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+    color: #404BBF;
+}
+
+.contact_address {
+    font-style: normal;
 }
 
 .contact-link {
@@ -59,51 +69,55 @@ a {
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
+    outline: none;
 }
 
-.main-address {
-    font-style: normal;
-}
-
-.button {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #404bbf;
-}
-
-.hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: white;
-}
-
-.heading-title {
+.feature-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.description {
+.feature-text {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.hero-section {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
 }
 
 .section-title {
@@ -114,70 +128,36 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team-card{
+
+.team-card {
     background-color: #FFFFFF;
 }
-.team{
-    background-color: #F4F4FD;
-}
 
-.portfolio-list {
-    list-style: none;
-    margin: 0;
-}
-
-.portfolio-item {
-    background-color: #fff;
-}
-
-.portfolio-title {
+.card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0.5rem 0 0.25rem 0;
-    text-align: left;
 }
 
-.portfolio-description {
+.card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
 }
 
-.name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
-.footer {
+.site-footer {
     background-color: #2e2f42;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo .studio {
-    color: #f4f4fd;
-}
-
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 600px; }
+}
+
+.footer-span {
+    color: #f4f4fd; }
