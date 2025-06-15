@@ -105,9 +105,11 @@ a {
     transition: background-color 0.3s ease; 
 }
 
-.hero__button:hover,
+.hero__button:hover{
+    background-color: #404bbf;
+}
 .hero__button:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 .team-section {
     background-color: #F4F4FD;
