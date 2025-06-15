@@ -43,7 +43,7 @@ a {
 }
 
 
-.nav__link {
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -52,8 +52,12 @@ a {
     transition: color 0.3s ease;
 }
 
-.nav__link:hover, .nav__link:focus {
-    color: #404BBF;
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.nav-link:focus {
+    color: #404bbf;
 }
 
 .contact-address{
@@ -104,7 +108,10 @@ a {
     transition: background-color 0.3s ease; 
 }
 
-.button:hover, .button:focus{
+.button:hover{
+    background-color: #404bbf;
+}
+.button:focus{
     background-color: #404bbf;
 }
 
