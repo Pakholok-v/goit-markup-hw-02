@@ -70,10 +70,8 @@ a {
     transition: color 0.3s ease;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
     color: #404bbf;
-    outline: none;
 }
 
 .feature-text {
@@ -95,7 +93,7 @@ a {
     color: #ffffff; 
 }
 
-.hero-button {
+.hero__button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -107,8 +105,8 @@ a {
     transition: background-color 0.3s ease; 
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
     background-color: #404BBF;
 }
 .team-section {
@@ -154,5 +152,6 @@ a {
     color: #f4f4fd;
 }
 
-.studio_logo {
-    color: #f4f4fd; }
+.studio__logo {
+    color: #f4f4fd;
+ }
