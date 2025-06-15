@@ -52,11 +52,11 @@ a {
     transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
     color: #404bbf;
 }
 
-.nav-link:focus {
+a.nav-link:focus {
     color: #404bbf;
 }
 
