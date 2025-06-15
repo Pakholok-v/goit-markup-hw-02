@@ -84,15 +84,15 @@ a {
 }
 
 .hero-section {
-    background-color: #2e2f42;
+    background-color: #2e2f42; 
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
 }
 
 .hero-button {
@@ -104,14 +104,13 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
 }
-
 .team-section {
     background-color: #F4F4FD;
 }
